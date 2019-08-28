@@ -5,7 +5,7 @@ const feeBase = 10000
 const feePer = 100
 const satellitesAddress = '0x764Fe0b6dF8575b30bCfd0c9Bb2A7ADb390b5359'
 const satellitesFeeRatio = 100
-const ownerAddress = satellitesAddress
+const ownerAddress = '0x2f205E934e884Abe2E4550BCa93157395677072a'
 const ownerFeeRatio = 900
 
 const networkIdToInfura: { [networkId: number]: string } = {
@@ -26,9 +26,9 @@ const networkIdToAPI: { [networkId: number]: string } = {
 const networkIdToTokens: { [networkId: number]: any[] } = {
   1: [
     {
-      contract: '0xf5b0a3efb8e8e4c201e2a935f110eaaf3ffecb8d',
-      symbol: 'AXIE',
-      name: 'AXIE'
+      contract: '0x273f7f8e6489682df756151f5525576e322d51a3',
+      symbol: 'MCHH',
+      name: 'MyCryptoHeroes:Hero'
     }
   ],
   4: [
