@@ -4,9 +4,9 @@ const ga = 'UA-130401695-4'
 const feeBase = 10000
 const feePer = 100
 const satellitesAddress = '0x764Fe0b6dF8575b30bCfd0c9Bb2A7ADb390b5359'
-const satellitesFeeRatio = 100
+const satellitesFeeRatio = 50
 const ownerAddress = '0x2f205E934e884Abe2E4550BCa93157395677072a'
-const ownerFeeRatio = 900
+const ownerFeeRatio = 950
 
 const networkIdToInfura: { [networkId: number]: string } = {
   1: 'https://mainnet.infura.io/',
